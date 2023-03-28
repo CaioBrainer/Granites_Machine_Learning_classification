@@ -7,7 +7,7 @@
 
 1. [Introdução](https://github.com/CaioBrainer/Granites_classification_with_Machine_Learning#introducao) 
 2. [Metodologia](https://github.com/CaioBrainer/Granites_classification_with_Machine_Learning#metodologia)
-3. [Resultados e Avaliação dos Modelos](https://github.com/CaioBrainer/Granites_classification_with_Machine_Learning#resultados_e_avaliacao_dos_modelos)
+3. [Resultados e Avaliação dos Modelos](https://github.com/CaioBrainer/Granites_classification_with_Machine_Learning#resultados-e-avaliacao-dos-modelos)
 
 # Introdução
 <p align="justify">
