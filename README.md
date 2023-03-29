@@ -5,8 +5,9 @@
 
 # Tabela de conteúdos 
 
-1. [Introdução](https://github.com/CaioBrainer/Granites_classification_with_Machine_Learning#introducao) 
+1. [Introdução](https://github.com/CaioBrainer/Granites_classification_with_Machine_Learning#introducao)  
 2. [Metodologia](https://github.com/CaioBrainer/Granites_classification_with_Machine_Learning#metodologia)
+   - [Dados](https://github.com/CaioBrainer/Granites_classification_with_Machine_Learning#dados)
 3. [Resultados e Avaliação dos Modelos](https://github.com/CaioBrainer/Granites_classification_with_Machine_Learning#resultados-e-avaliacao-dos-modelos)
 
 # Introdução
@@ -16,7 +17,16 @@ utilizando a classificação proposta por Barbarin (1999) em seu artigo intitula
 </p>
 
 <p align="center">
-<img width="400" alt="Elements distribution for classes" src="link_da_figura_upload_pelo_desktop">
+<img width="700" alt="Elements distribution for classes" src="https://user-images.githubusercontent.com/92734524/228396070-90be1d23-8a27-475c-9582-e2fe1baa9a13.jpg">
+</p>
+
+<p align="center">
+Classificação proposta por Barbarin (1999)
+</p>
+
+<p align="justify">
+Como discutido por Bonin et al., (2020) os TTG's são caracterizados como uma classe distinta de granitóides e embora não façam parte da proposta original
+foram incluidos no dataset, sendo possível ainda subdividir os TTG's em duas subclasses como apresentado por Moyen, (2019). 
 </p>
 
 # Metodologia
@@ -24,12 +34,20 @@ utilizando a classificação proposta por Barbarin (1999) em seu artigo intitula
 </p>
 
 ## Dados
-<p align="justify">Os dados utilizados nesse artigo são provenientes do artigo do Bonin et al., (2020). Os dados são constituidos por análises químicas de rocha total de granitóides rotulados de acordo com a classificação proposta por Barbarin (1999). 
+<p align="justify">Os dados utilizados nesse artigo são provenientes do artigo do Bonin et al., (2020). Os dados são constituidos por análises químicas de rocha total de granitóides rotulados de acordo com a classificação proposta por Barbarin (1999). </p>
 
-<p>Os dados foram tratados de forma a remover amostras com valores ausentes e filtrados de forma semelhante a utilizada por Bonin (2020), no qual definiu os valores minimos e máximos de SiO2 entre 52 e 80%.</p> 
+<p align="justify">Os dados foram tratados de forma a remover amostras com valores ausentes e normalizados para representar 100% (base anidra) sendo ainda filtrados de forma semelhante a utilizada por Bonin (2020), no qual definiu os valores minimos e máximos de SiO2 entre 52 e 80%, respectivamente.</p> 
 
-<p>Devido a escassa quantidade de amostras referentes a classe dos RTG (ridge
+<p align="justify">Devido a escassa quantidade de amostras referentes a classe dos RTG (ridge
 ‘tholeiitic’ granitoids) (n=38), também conhecidos como plagiogranitos, foi realizada uma pequena busca bibliográfica para expandir a quantidade de amostras (n=239) (referências...)
+</p>
+
+<p align="center">
+<img width="900" alt="Elements distribution for classes" src="https://user-images.githubusercontent.com/92734524/228398274-e50e1c58-11a7-423a-b4ca-4311b532be6e.jpeg">
+</p>
+
+<p align="center">
+Boxplots com a distribuição dos elementos por grupo.
 </p>
 
 ## Modelos
@@ -41,32 +59,11 @@ utilizando a classificação proposta por Barbarin (1999) em seu artigo intitula
 
 <p align="justify">Tendo em vista que o LDA pode ser utilizado tanto para classificação quanto para projeção, e foi utilizado previamente para projeção e separação do tipo de granitos, iremos avaliar suas métricas no que diz respeito a classificação dos granitos</p>
 
-### Decision Tree Classifier
-<p> Árvores de decisão são algoritmos de aprendizado supervisionado não paramétrico que utilizam uma série de testes/regras lógicas para dividir os dados analisados em conjuntos reduzidos de forma a atingir a classificação de cada registro.</p>
-
-<p>A seleção de atributos para cada nó se dá pela cálculo do ganho de informação ou pela impureza de Gini</p>
 
 ### Emsemble Models
-<p> </p>
-
-<p align="center">
-<img width="400" alt="f2" src="link_da_figura_upload_pelo_desktop">
-</p>
-
-<p align="center">
-Legenda
-</p>
-
+<p align="justify"> </p>
 
 # Resultados e Avaliação dos Modelos
-<p align="justify">
-
-</p>
-
-
-<p align="center">
-<img width="650" alt="f3" src="">
-</p>
-
+<p align="justify"></p>
 
 
