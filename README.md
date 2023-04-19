@@ -8,7 +8,15 @@
 1. [Introdução](https://github.com/CaioBrainer/Granites_classification_with_Machine_Learning#introducao)  
 2. [Metodologia](https://github.com/CaioBrainer/Granites_classification_with_Machine_Learning#metodologia)
    - [Dados](https://github.com/CaioBrainer/Granites_classification_with_Machine_Learning#dados)
+   - [Modelos](https://github.com/CaioBrainer/Granites_classification_with_Machine_Learning#modelos)
+     - [Linear Discriminant Analysis](https://github.com/CaioBrainer/Granites_classification_with_Machine_Learning#linear-discriminant-analysis)
+     - [Decision Trees](https://github.com/CaioBrainer/Granites_classification_with_Machine_Learning#decision-trees)
+     - [Random Forests](https://github.com/CaioBrainer/Granites_classification_with_Machine_Learning#random-forests)
+     - [XGBoost](https://github.com/CaioBrainer/Granites_classification_with_Machine_Learning#xgboost)
+     - [LightGBM](https://github.com/CaioBrainer/Granites_classification_with_Machine_Learning#lightlgbm)
 3. [Resultados e Avaliação dos Modelos](https://github.com/CaioBrainer/Granites_classification_with_Machine_Learning#resultados-e-avaliação-dos-modelos)
+4. [Discussão](https://github.com/CaioBrainer/Granites_classification_with_Machine_Learning#discussao)
+5. [Conclusão](https://github.com/CaioBrainer/Granites_classification_with_Machine_Learning#conclusão)
 
 # Introdução
 <p align="justify">
@@ -59,11 +67,19 @@ Boxplots com a distribuição dos elementos por grupo.
 
 <p align="justify">Tendo em vista que o LDA pode ser utilizado tanto para classificação quanto para projeção, e foi utilizado previamente para projeção e separação do tipo de granitos, iremos avaliar suas métricas no que diz respeito a classificação dos granitos</p>
 
+### Decision Trees
 
-### Emsemble Models
+### Random Forest
+
+### XGBoost
+
+### LightGBM
+
 <p align="justify"> </p>
 
 # Resultados e Avaliação dos Modelos
 <p align="justify"></p>
 
+# Discussão
+# Conclusão
 
