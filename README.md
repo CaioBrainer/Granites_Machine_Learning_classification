@@ -34,9 +34,6 @@ Neste projeto de artigo apresento uma metodologia para classificação de granit
 "A review of the relationships between granitoid types, their origins and their geodynamic environments."
 </p>
 
-<p align="center">
-<img width="700" alt="Elements distribution for classes" src="https://user-images.githubusercontent.com/92734524/233514049-f1b6f316-71f4-4e7e-88cb-a17498aaee9b.jpeg">
-</p>
 
 <p align="center">
 Classificação proposta por Barbarin (1999)
@@ -61,7 +58,7 @@ foram incluidos no dataset, sendo possível ainda subdividir os TTG's em duas su
 </p>
 
 <p align="center">
-<img width="900" alt="Elements distribution for classes" src="https://user-images.githubusercontent.com/92734524/228398274-e50e1c58-11a7-423a-b4ca-4311b532be6e.jpeg">
+<img width="700" alt="Elements distribution for classes" src="https://user-images.githubusercontent.com/92734524/233514049-f1b6f316-71f4-4e7e-88cb-a17498aaee9b.jpeg">
 </p>
 
 <p align="center">
