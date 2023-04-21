@@ -35,7 +35,7 @@ Neste projeto de artigo apresento uma metodologia para classificação de granit
 </p>
 
 <p align="center">
-<img width="700" alt="Elements distribution for classes" src="https://user-images.githubusercontent.com/92734524/228396070-90be1d23-8a27-475c-9582-e2fe1baa9a13.jpg">
+<img width="700" alt="Elements distribution for classes" src="https://user-images.githubusercontent.com/92734524/233514049-f1b6f316-71f4-4e7e-88cb-a17498aaee9b.jpeg">
 </p>
 
 <p align="center">
@@ -92,7 +92,25 @@ Boxplots com a distribuição dos elementos por grupo.
 <p align="justify"> </p>
 
 # Resultados e Avaliação dos Modelos
-<p align="justify"></p>
+<p align="justify">
+</p>
+
+<p align="center">
+<img width="700" alt="f1_scores" src="https://user-images.githubusercontent.com/92734524/233514387-0f8e1f89-24cf-4da2-8ccb-419a96ada717.jpeg">
+</p>
+
+<p align="center">
+F1 scores para os modelos treinados
+</p>
+
+
+<p align="center">
+<img width="700" alt="cm" src="https://user-images.githubusercontent.com/92734524/233514212-b5fbbaa5-f43f-46dc-a95d-5d721e00d449.jpeg">
+</p>
+
+<p align="center">
+Matrix de confusão dos melhores modelos
+</p>
 
 # Discussão
 # Conclusão
