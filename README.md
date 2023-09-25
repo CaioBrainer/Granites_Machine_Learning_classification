@@ -7,10 +7,9 @@
    - [Dados](https://github.com/CaioBrainer/Granites_classification_with_Machine_Learning#dados)
    - [Modelos](https://github.com/CaioBrainer/Granites_classification_with_Machine_Learning#modelos)
      - [Linear Discriminant Analysis](https://github.com/CaioBrainer/Granites_classification_with_Machine_Learning#linear-discriminant-analysis)
-     - [Decision Trees](https://github.com/CaioBrainer/Granites_classification_with_Machine_Learning#decision-trees)
-     - [Random Forests](https://github.com/CaioBrainer/Granites_classification_with_Machine_Learning#random-forests)
+     - [Random Forests](https://github.com/CaioBrainer/Granites_classification_with_Machine_Learning#random-forest)
      - [XGBoost](https://github.com/CaioBrainer/Granites_classification_with_Machine_Learning#xgboost)
-     - [LightGBM](https://github.com/CaioBrainer/Granites_classification_with_Machine_Learning#lightlgbm)
+     - [LightGBM](https://github.com/CaioBrainer/Granites_classification_with_Machine_Learning#lightgbm)
 3. [Resultados e Avaliação dos Modelos](https://github.com/CaioBrainer/Granites_classification_with_Machine_Learning#resultados-e-avaliação-dos-modelos)
 4. [Discussão](https://github.com/CaioBrainer/Granites_classification_with_Machine_Learning#discussao)
 5. [Conclusão](https://github.com/CaioBrainer/Granites_classification_with_Machine_Learning#conclusão)
@@ -78,7 +77,6 @@ Boxplots com a distribuição dos elementos por grupo.
  Tendo em vista que o LDA pode ser utilizado tanto para classificação quanto para projeção, e foi utilizado previamente para projeção e separação do tipo de granitos, iremos avaliar suas métricas no que diz respeito a classificação dos granitos
 </p>
 
-### Decision Trees
 
 ### Random Forest
 
@@ -108,6 +106,32 @@ F1 scores para os modelos treinados
 <p align="center">
 Matrix de confusão dos melhores modelos
 </p>
+
+<p align="center">
+<img width="600" alt="cm" src="https://github.com/CaioBrainer/Granites_classification_with_Machine_Learning/assets/92734524/1fd0a636-b5a8-4378-8bfb-8204da7d6bd2">
+</p>
+
+<p align="center">
+Valores SHAP para as variáveis no modelo Random Forest
+</p>
+
+<p align="center">
+<img width="600" alt="cm" src="https://github.com/CaioBrainer/Granites_classification_with_Machine_Learning/assets/92734524/97c31ead-f3e3-43ba-9cb9-2e44d58562d8">
+</p>
+
+<p align="center">
+Valores SHAP para as variáveis no modelo XGBoost
+</p>
+
+
+<p align="center">
+<img width="600" alt="cm" src="https://github.com/CaioBrainer/Granites_classification_with_Machine_Learning/assets/92734524/161f82d6-2b5c-4180-ba13-d7b3730daeb8">
+</p>
+
+<p align="center">
+Valores SHAP para as variáveis no modelo LGBM
+</p>
+
 
 # Discussão
 # Conclusão
